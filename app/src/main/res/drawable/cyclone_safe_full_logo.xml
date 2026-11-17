@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="500"
+    android:viewportHeight="500">
+
+    <!-- Group: Circular Emblem shifted to top center -->
+    <group
+        android:translateX="50"
+        android:translateY="0"
+        android:scaleX="0.9"
+        android:scaleY="0.9">
+
+        <!-- Outer Dark Navy Storm Background -->
+        <path
+            android:fillColor="#0B2545"
+            android:pathData="M200,20 C100.6,20 20,100.6 20,200 C20,299.4 100.6,380 200,380 C299.4,380 380,299.4 380,200 C380,100.6 299.4,20 200,20 Z" />
+
+        <!-- Storm Clouds Background (Top Right) -->
+        <path
+            android:fillColor="#1D3557"
+            android:pathData="M240,40 C280,40 320,60 340,90 C360,120 375,160 378,200 C330,170 290,165 240,180 Z" />
+        <path
+            android:fillColor="#457B9D"
+            android:pathData="M280,50 C310,50 340,70 355,100 C370,130 372,170 360,200 C320,180 290,170 260,185 Z" />
+
+        <!-- Ocean Water Layer (Bottom Dark Ocean) -->
+        <path
+            android:fillColor="#004E89"
+            android:pathData="M20,240 C90,230 150,270 220,250 C290,230 340,260 380,250 L380,380 C299.4,380 200,380 200,380 C100.6,380 20,380 20,380 Z" />
+
+        <!-- Ocean Wave Layer 2 (Sky Blue) -->
+        <path
+            android:fillColor="#00A8E8"
+            android:pathData="M20,270 C80,250 140,290 210,270 C280,250 330,285 376,275 C379,283 380,291 380,300 C320,310 270,280 200,300 C130,320 70,290 20,305 Z" />
+
+        <!-- Ocean Wave Layer 3 (White Crest Waves) -->
+        <path
+            android:fillColor="#00C49F"
+            android:pathData="M20,310 C70,295 130,325 200,310 C270,295 330,320 370,310 C365,335 345,355 320,368 C270,350 210,360 160,345 C100,360 50,340 20,325 Z" />
+
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M30,325 C80,310 130,335 190,320 C250,305 310,330 355,320 C345,340 325,355 300,365 C250,350 200,360 150,348 C100,360 55,345 30,335 Z" />
+
+        <!-- Coastal House / Shelter with Warm Glowing Window -->
+        <path
+            android:fillColor="#13293D"
+            android:pathData="M270,225 L310,200 L350,225 L345,260 L275,260 Z" />
+        <path
+            android:fillColor="#FFB703"
+            android:pathData="M300,230 L320,230 L320,248 L300,248 Z" />
+
+        <!-- Palm Trees Silhouettes -->
+        <path
+            android:fillColor="#0B2545"
+            android:pathData="M320,260 C315,220 330,180 345,150 L352,152 C338,180 323,220 327,260 Z" />
+        <path
+            android:fillColor="#0B2545"
+            android:pathData="M345,150 C320,130 290,140 280,150 C300,160 330,155 345,150 Z" />
+        <path
+            android:fillColor="#0B2545"
+            android:pathData="M345,150 C330,120 310,105 295,110 C310,130 335,135 345,150 Z" />
+        <path
+            android:fillColor="#0B2545"
+            android:pathData="M345,150 C365,130 380,135 390,145 C375,155 355,150 345,150 Z" />
+
+        <path
+            android:fillColor="#0B2545"
+            android:pathData="M350,260 C348,230 360,200 375,170 L381,172 C367,200 355,230 357,260 Z" />
+        <path
+            android:fillColor="#0B2545"
+            android:pathData="M375,170 C355,150 330,160 320,170 C340,178 365,175 375,170 Z" />
+
+        <!-- Main Cyclone Swirl (Center & Top Spiral) -->
+        <path
+            android:fillColor="#00A8E8"
+            android:pathData="M200,45 C270,45 330,95 330,160 C330,210 290,250 240,245 C210,242 185,220 185,190 C185,165 205,145 230,145 C245,145 255,155 255,170 C255,180 248,188 238,188 C232,188 228,184 228,178 C228,170 240,170 240,162 C240,158 234,155 228,155 C212,155 198,170 198,188 C198,210 218,228 242,228 C280,228 312,192 312,152 C312,98 262,60 200,60 C145,60 98,98 90,150 C120,90 155,45 200,45 Z" />
+
+        <path
+            android:fillColor="#00C49F"
+            android:pathData="M200,70 C250,70 295,105 295,155 C295,190 270,220 235,215 C215,212 200,195 200,175 C200,160 212,148 228,148 C238,148 245,155 245,165 C245,172 240,178 232,178 C228,178 225,175 225,170 C225,164 233,164 233,158 C233,155 229,153 225,153 C213,153 203,164 203,176 C203,192 218,204 235,204 C262,204 282,178 282,148 C282,108 244,78 200,78 C155,78 120,110 110,155 C132,105 162,70 200,70 Z" />
+
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M200,90 C235,90 270,118 270,155 C270,180 250,202 228,198 C212,195 202,182 202,168 C202,156 212,146 225,146 C232,146 238,151 238,158 C238,163 234,168 228,168 C225,168 222,165 222,162 C222,158 228,158 228,153 C228,151 225,149 222,149 C214,149 207,157 207,166 C207,178 219,188 231,188 C250,188 262,168 262,148 C262,118 232,98 200,98 C165,98 138,122 130,158 C148,118 172,90 200,90 Z" />
+
+        <!-- Family Protection Shield -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M70,120 L170,120 C170,220 120,290 70,310 C20,290 -30,220 70,120 Z" />
+
+        <path
+            android:fillColor="#0B2545"
+            android:pathData="M70,110 L180,110 L182,120 C182,230 128,305 70,325 C12,305 -42,230 -42,120 L70,110 Z M70,130 C10,140 -20,220 70,295 C160,220 130,140 70,130 Z" />
+
+        <!-- Family Silhouettes inside Shield -->
+        <path
+            android:fillColor="#0B2545"
+            android:pathData="M75,175 C82,175 88,169 88,162 C88,155 82,149 75,149 C68,149 62,155 62,162 C62,169 68,175 75,175 Z M60,185 C55,185 50,195 50,215 L100,215 C100,195 95,185 90,185 Z" />
+
+        <path
+            android:fillColor="#0B2545"
+            android:pathData="M110,182 C116,182 121,177 121,171 C121,165 116,160 110,160 C104,160 99,165 99,171 C99,177 104,182 110,182 Z M98,192 C93,192 88,202 88,220 L132,220 C132,202 127,192 122,192 Z" />
+
+        <path
+            android:fillColor="#0B2545"
+            android:pathData="M80,222 C85,222 89,218 89,213 C89,208 85,204 80,204 C75,204 71,208 71,213 C71,218 75,222 80,222 Z M70,230 C66,230 62,238 62,250 L98,250 C98,238 94,230 90,230 Z" />
+
+        <path
+            android:fillColor="#0B2545"
+            android:pathData="M105,226 C110,226 114,222 114,217 C114,212 110,208 105,208 C100,208 96,212 96,217 C96,222 100,226 105,226 Z M96,234 C92,234 88,241 88,252 L122,252 C122,241 118,234 114,234 Z" />
+    </group>
+
+    <!-- Bottom Text: "CycloneSafe" Typography -->
+    <!-- "Cyclone" (Navy Blue) & "Safe" (Sky Blue) -->
+    <!-- C -->
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M75,370 C60,370 50,382 50,400 C50,418 60,430 75,430 C88,430 96,420 98,408 L84,408 C83,414 79,418 75,418 C68,418 64,410 64,400 C64,390 68,382 75,382 C79,382 83,386 84,392 L98,392 C96,380 88,370 75,370 Z" />
+
+    <!-- Y -->
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M102,372 L116,400 L116,428 L130,428 L130,400 L144,372 L128,372 L123,387 L118,372 Z" />
+
+    <!-- C -->
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M165,370 C150,370 140,382 140,400 C140,418 150,430 165,430 C178,430 186,420 188,408 L174,408 C173,414 169,418 165,418 C158,418 154,410 154,400 C154,390 158,382 165,382 C169,382 173,386 174,392 L188,392 C186,380 178,370 165,370 Z" />
+
+    <!-- L -->
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M194,372 L194,428 L220,428 L220,416 L208,416 L208,372 Z" />
+
+    <!-- O -->
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M245,370 C230,370 220,382 220,400 C220,418 230,430 245,430 C260,430 270,418 270,400 C270,382 260,370 245,370 Z M245,382 C252,382 256,390 256,400 C256,410 252,418 245,418 C238,418 234,410 234,400 C234,390 238,382 245,382 Z" />
+
+    <!-- N -->
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M276,372 L276,428 L290,428 L306,394 L306,428 L320,428 L320,372 L306,372 L290,406 L290,372 Z" />
+
+    <!-- E -->
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M326,372 L326,428 L354,428 L354,416 L340,416 L340,404 L352,404 L352,392 L340,392 L340,384 L354,384 L354,372 Z" />
+
+    <!-- "Safe" (Sky Blue #00A8E8) -->
+    <!-- S -->
+    <path
+        android:fillColor="#00A8E8"
+        android:pathData="M375,370 C362,370 356,378 356,386 C356,396 366,400 374,402 C380,404 384,406 384,410 C384,414 380,418 373,418 C366,418 360,412 358,406 L344,406 C346,418 356,430 373,430 C388,430 398,420 398,408 C398,398 388,394 380,392 C374,390 370,388 370,384 C370,380 374,378 380,378 C386,378 390,382 392,386 L404,386 C402,376 392,370 375,370 Z" />
+
+    <!-- A -->
+    <path
+        android:fillColor="#00A8E8"
+        android:pathData="M420,372 L406,428 L420,428 L423,416 L437,416 L440,428 L454,428 L440,372 Z M426,404 L430,388 L434,404 Z" />
+
+    <!-- F -->
+    <path
+        android:fillColor="#00A8E8"
+        android:pathData="M460,372 L460,428 L474,428 L474,404 L488,404 L488,392 L474,392 L474,384 L490,384 L490,372 Z" />
+
+    <!-- E -->
+    <path
+        android:fillColor="#00A8E8"
+        android:pathData="M496,372 L496,428 L524,428 L524,416 L510,416 L510,404 L522,404 L522,392 L510,392 L510,384 L524,384 L524,372 Z" />
+
+    <!-- Accent Lines & Tagline: "Be Aware • Be Prepared • Be Safe" -->
+    <!-- Left Accent Line -->
+    <path
+        android:fillColor="#00A8E8"
+        android:pathData="M70,460 L140,460 L140,463 L70,463 Z" />
+
+    <!-- Right Accent Line -->
+    <path
+        android:fillColor="#00A8E8"
+        android:pathData="M360,460 L430,460 L430,463 L360,463 Z" />
+
+</vector>

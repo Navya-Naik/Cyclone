@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CycloneSafe</string>
+    <string name="app_subtitle">Disaster Safety &amp; Emergency Management</string>
+
+    <!-- OTP Screen Strings -->
+    <string name="otp_title">OTP Verification</string>
+    <string name="otp_subtitle">Secure your account to stay protected.</string>
+    <string name="otp_sent_info">We\'ve sent a 6-digit verification code to your registered mobile number (+91 ******890).</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="verifying">Verifying&#8230;</string>
+    <string name="didnt_receive_code">Didn\'t receive the code?</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="resend_timer">Resend OTP in %s</string>
+    <string name="back_to_login">Back to Login</string>
+
+    <!-- Status & Validation Messages -->
+    <string name="error_incomplete_otp">Please enter all 6 digits of the OTP.</string>
+    <string name="error_invalid_otp">Invalid OTP code. Please try again.</string>
+    <string name="otp_resent_success">A new 6-digit verification code has been sent!</string>
+    <string name="verification_success">Verification Successful! Welcome to CycloneSafe.</string>
+
+    <!-- Login Screen Strings -->
+    <string name="login_title">CycloneSafe Login</string>
+    <string name="login_subtitle">Enter your details to access emergency alerts.</string>
+    <string name="mobile_number_hint">Mobile Number</string>
+    <string name="send_otp">Send OTP</string>
+
+    <!-- Home Screen Strings -->
+    <string name="home_title">CycloneSafe Dashboard</string>
+    <string name="home_welcome">Welcome to CycloneSafe</string>
+    <string name="home_subtitle">Live Emergency &amp; Cyclone Alert Center</string>
+    <string name="emergency_services">Emergency Services</string>
+    <string name="emergency_contact">Emergency Contacts</string>
+    <string name="shelter_locator">Nearby Shelters</string>
+    <string name="weather_alerts">Cyclone Warnings</string>
+    <string name="safety_guidelines">Safety Guidelines</string>
+</resources>

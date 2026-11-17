@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand Colors for CycloneSafe -->
+    <color name="navy_blue">#0D47A1</color>
+    <color name="navy_blue_dark">#002171</color>
+    <color name="navy_blue_light">#5472D3</color>
+    <color name="sky_blue">#42A5F5</color>
+    <color name="sky_blue_light">#E3F2FD</color>
+    <color name="sky_blue_ultra_light">#EAF4FF</color>
+    <color name="bg_light_blue">#EAF4FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#0D1B2A</color>
+    <color name="text_secondary">#4A6572</color>
+    <color name="text_muted">#78909C</color>
+    <color name="text_link">#0D47A1</color>
+
+    <!-- Status Colors -->
+    <color name="error_red">#D32F2F</color>
+    <color name="error_bg">#FFEBEE</color>
+    <color name="success_green">#2E7D32</color>
+    <color name="success_bg">#E8F5E9</color>
+
+    <!-- OTP Box Colors -->
+    <color name="otp_box_bg">#F4F8FC</color>
+    <color name="otp_box_border">#C5D9ED</color>
+    <color name="otp_box_border_focused">#0D47A1</color>
+    <color name="otp_box_border_error">#D32F2F</color>
+    <color name="otp_box_filled_bg">#F0F7FF</color>
+
+    <!-- Component Colors -->
+    <color name="card_bg">#FFFFFF</color>
+    <color name="button_disabled">#9E9E9E</color>
+    <color name="divider_color">#E0E0E0</color>
+</resources>

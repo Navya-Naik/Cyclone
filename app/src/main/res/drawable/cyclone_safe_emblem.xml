@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <!-- Clip / Main Background Circle -->
+    <!-- Base Circular Background (Dark Navy Storm) -->
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M200,20 C100.6,20 20,100.6 20,200 C20,299.4 100.6,380 200,380 C299.4,380 380,299.4 380,200 C380,100.6 299.4,20 200,20 Z" />
+
+    <!-- Storm Clouds Background (Top Right) -->
+    <path
+        android:fillColor="#1D3557"
+        android:pathData="M240,40 C280,40 320,60 340,90 C360,120 375,160 378,200 C330,170 290,165 240,180 Z" />
+    <path
+        android:fillColor="#457B9D"
+        android:pathData="M280,50 C310,50 340,70 355,100 C370,130 372,170 360,200 C320,180 290,170 260,185 Z" />
+
+    <!-- Ocean Water Layer (Bottom Dark Ocean) -->
+    <path
+        android:fillColor="#004E89"
+        android:pathData="M20,240 C90,230 150,270 220,250 C290,230 340,260 380,250 L380,380 C299.4,380 200,380 200,380 C100.6,380 20,380 20,380 Z" />
+
+    <!-- Ocean Wave Layer 2 (Sky Blue) -->
+    <path
+        android:fillColor="#00A8E8"
+        android:pathData="M20,270 C80,250 140,290 210,270 C280,250 330,285 376,275 C379,283 380,291 380,300 C320,310 270,280 200,300 C130,320 70,290 20,305 Z" />
+
+    <!-- Ocean Wave Layer 3 (White Crest Waves) -->
+    <path
+        android:fillColor="#00C49F"
+        android:pathData="M20,310 C70,295 130,325 200,310 C270,295 330,320 370,310 C365,335 345,355 320,368 C270,350 210,360 160,345 C100,360 50,340 20,325 Z" />
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,325 C80,310 130,335 190,320 C250,305 310,330 355,320 C345,340 325,355 300,365 C250,350 200,360 150,348 C100,360 55,345 30,335 Z" />
+
+    <!-- Coastal House / Shelter with Warm Glowing Window -->
+    <path
+        android:fillColor="#13293D"
+        android:pathData="M270,225 L310,200 L350,225 L345,260 L275,260 Z" />
+    <path
+        android:fillColor="#FFB703"
+        android:pathData="M300,230 L320,230 L320,248 L300,248 Z" />
+
+    <!-- Palm Trees Silhouettes (Right Coastline) -->
+    <!-- Palm 1 Trunk -->
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M320,260 C315,220 330,180 345,150 L352,152 C338,180 323,220 327,260 Z" />
+    <!-- Palm 1 Leaves -->
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M345,150 C320,130 290,140 280,150 C300,160 330,155 345,150 Z" />
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M345,150 C330,120 310,105 295,110 C310,130 335,135 345,150 Z" />
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M345,150 C365,130 380,135 390,145 C375,155 355,150 345,150 Z" />
+
+    <!-- Palm 2 Trunk -->
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M350,260 C348,230 360,200 375,170 L381,172 C367,200 355,230 357,260 Z" />
+    <!-- Palm 2 Leaves -->
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M375,170 C355,150 330,160 320,170 C340,178 365,175 375,170 Z" />
+
+    <!-- Main Cyclone Swirl (Center & Top Spiral) -->
+    <!-- Outer Spiral Arm (Light Sky Blue) -->
+    <path
+        android:fillColor="#00A8E8"
+        android:pathData="M200,45 C270,45 330,95 330,160 C330,210 290,250 240,245 C210,242 185,220 185,190 C185,165 205,145 230,145 C245,145 255,155 255,170 C255,180 248,188 238,188 C232,188 228,184 228,178 C228,170 240,170 240,162 C240,158 234,155 228,155 C212,155 198,170 198,188 C198,210 218,228 242,228 C280,228 312,192 312,152 C312,98 262,60 200,60 C145,60 98,98 90,150 C120,90 155,45 200,45 Z" />
+
+    <!-- Mid Spiral Arm (Cyan/Bright Blue) -->
+    <path
+        android:fillColor="#00C49F"
+        android:pathData="M200,70 C250,70 295,105 295,155 C295,190 270,220 235,215 C215,212 200,195 200,175 C200,160 212,148 228,148 C238,148 245,155 245,165 C245,172 240,178 232,178 C228,178 225,175 225,170 C225,164 233,164 233,158 C233,155 229,153 225,153 C213,153 203,164 203,176 C203,192 218,204 235,204 C262,204 282,178 282,148 C282,108 244,78 200,78 C155,78 120,110 110,155 C132,105 162,70 200,70 Z" />
+
+    <!-- Core Spiral Swirl (White Inner Whirlpool) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M200,90 C235,90 270,118 270,155 C270,180 250,202 228,198 C212,195 202,182 202,168 C202,156 212,146 225,146 C232,146 238,151 238,158 C238,163 234,168 228,168 C225,168 222,165 222,162 C222,158 228,158 228,153 C228,151 225,149 222,149 C214,149 207,157 207,166 C207,178 219,188 231,188 C250,188 262,168 262,148 C262,118 232,98 200,98 C165,98 138,122 130,158 C148,118 172,90 200,90 Z" />
+
+    <!-- Family Protection Shield (Bottom Left Overlay) -->
+    <!-- Shield White Body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M70,120 L170,120 C170,220 120,290 70,310 C20,290 -30,220 70,120 Z" />
+
+    <!-- Shield Bold Navy Border -->
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M70,110 L180,110 L182,120 C182,230 128,305 70,325 C12,305 -42,230 -42,120 L70,110 Z M70,130 C10,140 -20,220 70,295 C160,220 130,140 70,130 Z" />
+
+    <!-- Family Silhouettes inside Shield (Dark Navy) -->
+    <!-- Father (Adult Left) -->
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M75,175 C82,175 88,169 88,162 C88,155 82,149 75,149 C68,149 62,155 62,162 C62,169 68,175 75,175 Z M60,185 C55,185 50,195 50,215 L100,215 C100,195 95,185 90,185 Z" />
+
+    <!-- Mother (Adult Right) -->
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M110,182 C116,182 121,177 121,171 C121,165 116,160 110,160 C104,160 99,165 99,171 C99,177 104,182 110,182 Z M98,192 C93,192 88,202 88,220 L132,220 C132,202 127,192 122,192 Z" />
+
+    <!-- Child Left -->
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M80,222 C85,222 89,218 89,213 C89,208 85,204 80,204 C75,204 71,208 71,213 C71,218 75,222 80,222 Z M70,230 C66,230 62,238 62,250 L98,250 C98,238 94,230 90,230 Z" />
+
+    <!-- Child Right -->
+    <path
+        android:fillColor="#0B2545"
+        android:pathData="M105,226 C110,226 114,222 114,217 C114,212 110,208 105,208 C100,208 96,212 96,217 C96,222 100,226 105,226 Z M96,234 C92,234 88,241 88,252 L122,252 C122,241 118,234 114,234 Z" />
+
+</vector>

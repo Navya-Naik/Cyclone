@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Otp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize light theme for CycloneSafe -->
+        <item name="colorPrimary">@color/navy_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/sky_blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/navy_blue_dark</item>
+        <item name="android:windowBackground">@color/bg_light_blue</item>
+    </style>
+
+    <style name="Theme.Otp" parent="Base.Theme.Otp" />
+</resources>
